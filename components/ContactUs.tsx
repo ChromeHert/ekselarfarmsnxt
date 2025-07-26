@@ -26,7 +26,7 @@ export default function ContactUs() {
 
   const onSubmit = async (data: FormData) => {
     try {
-      const res = await fetch('https://formspree.io/f/your-form-id', {
+      const res = await fetch('https://formspree.io/f/xjkoyqzy', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
@@ -46,7 +46,7 @@ export default function ContactUs() {
     <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="section-title">Get in Touch</h2>
+          <h2 className="section-title text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-yellow-300">Get in Touch</h2>
           <p className="section-subtitle">
             Have questions about our products or want to schedule a visit? Reach out to us!
           </p>
